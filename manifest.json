@@ -1,0 +1,13 @@
+{
+    "name": "Chrome Notifications Starter",
+    "description": "Chrome App",
+    "manifest_version": 2,
+    "version": "0.1",
+    "app": {
+        "background": {
+            "scripts": ["background.js"]
+        }
+    },
+    "permissions": ["gcm", "storage", "notifications"],
+    "icons": { "16": "icon.jpeg", "128": "icon.jpeg" }
+}
